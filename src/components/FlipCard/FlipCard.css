@@ -1,0 +1,37 @@
+.pokemon-card {
+  background-color: #f5f5f5;
+  color: #333;
+  margin-right: 10px;
+  width: 300px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: transform 0.5s;
+  user-select: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+
+.card-front { 
+  height: 100%;    /* so i can click anywhere inside the card */
+ 
+}
+
+.card-back {
+  height: 100%;  /* so i can click anywhere inside the card */
+}
+
+
+.react-card-flip {  /* so i can click anywhere inside the card */
+  height: 100%;
+  width: 100%;
+}
